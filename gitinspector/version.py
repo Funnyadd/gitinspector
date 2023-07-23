@@ -22,13 +22,13 @@ from __future__ import unicode_literals
 from . import localization
 localization.init()
 
-__version__ = "0.5.0dev"
+__version__ = "Adam Mihajlovic's functional version"
 
 __doc__ = _("""Copyright © 2012-2015 Ejwa Software. All rights reserved.
 License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
 This is free software: you are free to change and redistribute it.
 There is NO WARRANTY, to the extent permitted by law.
 
-Written by Adam Waldenberg.""")
+Written by Adam Waldenberg and fixed by Adam Mihajlovic.""")
 def output():
 	print("gitinspector {0}\n".format(__version__) + __doc__)
