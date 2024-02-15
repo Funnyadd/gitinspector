@@ -1,5 +1,11 @@
 [![Latest release](https://img.shields.io/github/release/ejwa/gitinspector.svg?style=flat-square)](https://github.com/ejwa/gitinspector/releases/latest)
 [![License](https://img.shields.io/github/license/ejwa/gitinspector.svg?style=flat-square)](https://github.com/ejwa/gitinspector/blob/master/LICENSE.txt)
+
+## Example of comand to use (Full Documentation for the command available [here](https://github.com/ejwa/gitinspector/wiki/Documentation)):
+```bash
+python gitinspector.py -HlmrTw -x package-lock.json -f ts,js,css,json,pug -F html --since={START_DATE_OF_ANALYSIS} {GIT_REPOSITORY_URL} > {FULL_OUTPUT_DIRECTORY_OF_REPORT}
+```
+
 <h2>
  <img align="left" height="65px"
       src="https://raw.githubusercontent.com/ejwa/gitinspector/master/gitinspector/html/gitinspector_piclet.png"/>
