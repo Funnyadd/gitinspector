@@ -3,7 +3,7 @@
 
 ## Example of comand to use (Full Documentation for the command available [here](https://github.com/ejwa/gitinspector/wiki/Documentation)):
 ```bash
-python gitinspector.py -HlmrTw -x package-lock.json -f ts,js,css,json,pug -F html --since={START_DATE_OF_ANALYSIS} {GIT_REPOSITORY_URL} > {FULL_OUTPUT_DIRECTORY_OF_REPORT}
+python gitinspector.py -HlmrTw -x package-lock.json -f ts,js,css,json,pug -F html --since={START_DATE_OF_ANALYSIS (dd-mm-yyyy)} {GIT_REPOSITORY_URL} > {NAME_OF_REPORT}.html
 ```
 
 <h2>
